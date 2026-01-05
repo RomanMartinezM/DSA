@@ -1,7 +1,7 @@
 # Space O(1)
 # Time O(n)
 
-def isPalindrome(s: str) -> bool:
+def is_palindrome(s: str) -> bool:
     p1 = 0
     p2 = len(s) - 1
 
@@ -34,7 +34,7 @@ def main():
     ]
 
     for test in test_cases:
-        print(f'"{test}" -> {isPalindrome(test)}')
+        print(f'"{test}" -> {is_palindrome(test)}')
 
 if __name__ == "__main__":
     main()
