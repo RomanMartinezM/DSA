@@ -1,6 +1,5 @@
-
-#time O(n^2)
-#space O(1)
+# Time O(n^2)
+# Space O(1)
 def three_sum(nums):
     nums.sort()
     results = []

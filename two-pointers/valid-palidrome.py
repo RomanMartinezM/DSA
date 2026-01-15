@@ -1,5 +1,5 @@
-# Space O(1)
-# Time O(n)
+# Space O(1), bacause only two pointers are used, no extra space is required
+# Time O(n), where n is the number of characters in the string
 
 def is_palindrome(s: str) -> bool:
     p1 = 0

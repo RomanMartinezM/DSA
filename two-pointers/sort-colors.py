@@ -1,3 +1,5 @@
+# Time: O(n) where n is the length of array
+# Space: O(1) bacause only store pointers, no extra space is required
 def sort_colors(colors):
     start, current = 0, 0
     end = len(colors)-1

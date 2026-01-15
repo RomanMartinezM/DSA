@@ -1,3 +1,6 @@
+# Time: O(n) where n is the length of input string
+# Space: O(1) because fixed-size map is required to store the strobogrammatic digit mappings, regardless of the input size.
+
 def is_strobogrammatic(num):
     mapping = {
         '0' : '0',
