@@ -1,3 +1,5 @@
+# Time: O(n) where n is the number of nums elements
+# Space: O(1) because no extra space is required
 def find_duplicate_number(nums):
     fast = slow = nums[0]
 
